@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  background: url("./index-v.jpg") center/cover fixed #000 ;
+}
+
+.aa {
+  position: fixed;
+  left: 50%;
+  bottom: 10px;
+  color: #ccc;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+canvas {
+  z-index: 99;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  .bg {
+    background: url("./index-h.jpg") center/cover fixed #000 ;
+  }
+}
